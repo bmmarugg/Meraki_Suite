@@ -1,0 +1,14 @@
+Meraki Site script Changelog
+========================================================================================================================
+
+v2.2
+------------------------------------------------------------------------------------------------------------------------
++ Changed the order of the VLAN creation/deletion. New changes to the API from Meraki/Cisco prevented the possibility
+    for having 0 VLANs configured. I've re-ordered operations to enable VLANs, create Infinite Campus VLANs, and then
+    delete the default VLAN.
+
+------------------------------------------------------------------------------------------------------------------------
+v2.3
+------------------------------------------------------------------------------------------------------------------------
++ Created ability for users to manually choose an MX-84 serial number to bind to the newly created network;
++ Ensured proper host size selections ("1," "2," or "3") with appropriate configuration changes
